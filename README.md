@@ -14,3 +14,20 @@
 
 #### Create test user:
 ![Creating user](https://raw.githubusercontent.com/mkuchin/docker-registry-web-examples/master/images/create-test.gif)
+
+#### Push some images
+
+    docker login localhost
+    docker pull hello-world
+    docker tag hello-world localhost/hello-world:latest
+    docker tag hyper/docker-registry-web:auth-experimental localhost/docker-registry-web:latest
+    docker push localhost/hello-world:latest
+    docker push localhost/docker-registry-web:latest
+
+#### and then pull
+
+    docker rmi localhost/hello-world:latest
+	docker run localhost/hello-world:latest
+	
+#### Check web registry for changes
+
