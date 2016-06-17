@@ -30,4 +30,4 @@
 	docker run localhost/hello-world:latest
 	
 #### Check web registry for changes
-
+![Repo](https://raw.githubusercontent.com/mkuchin/docker-registry-web-examples/master/images/repo.gif)
