@@ -13,4 +13,4 @@
     
 
 #### Create test user:
-![Creating user](https://github.com/mkuchin/docker-registry-web-examples/blob/master/images/create-test.gif)
+![Creating user](https://raw.githubusercontent.com/mkuchin/docker-registry-web-examples/master/images/create-test.gif)
